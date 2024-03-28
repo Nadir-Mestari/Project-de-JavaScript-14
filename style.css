@@ -19,10 +19,41 @@ input:focus {
   justify-content: center;
 }
 input[type="range"] {
+  accent-color: rgb(201, 73, 73);
   width: 250px;
   margin: 0 10px 10px 0;
+  cursor: pointer;
+  height: 0.5rem;
+  border-radius: 20px;
 }
+
 .range-container span {
   font-size: 1.2rem;
   transform: translateY(-3px);
+}
+
+#Constries {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+div .card {
+  flex: 1 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: rgb(52, 52, 52);
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+div .card img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
 }
